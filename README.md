@@ -1,9 +1,9 @@
-just-another-slider
+Just another jQuery slider
 ===================
 
 Just Another jQuery Slider
 
-Why do we need just another Slider ?
+Why do we need another jQuery Slider ?
 ===================
 
 I know, we already have to many of them out there.
