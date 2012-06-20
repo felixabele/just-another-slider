@@ -31,17 +31,9 @@ HTML
     <div id="go_left">&lAarr;</div>
     <div id="simple_slider">
     <ul>            
-        <li>
-            <p>first Slide</p>
-        </li>
-
-        <li>
-            <p>second Slide</p>
-        </li>
-
-        <li>
-            <p>third Slide</p>
-        </li>
+        <li><p>first Slide</p></li>
+        <li><p>second Slide</p></li>
+        <li><p>third Slide</p></li>
     </ul>
     </div>
     <div id="go_right">&rAarr;</div>
