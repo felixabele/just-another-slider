@@ -1,0 +1,63 @@
+<!--
+    by Felix Abele, 20.06.2012
+    felix.abele@gmail.com
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Just Another jQuery Slider - Demo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        
+        <!-- Import "JustAnotherSlider" -->
+        <script type="text/javascript" src="jquery.justAnotherSlider.js"></script>
+        
+        <script type="text/javascript"> 
+
+        $(document).ready(function(){
+
+            // INIT Slider Plugin
+            $("#simple_slider").justAnotherSlider({
+                width: 520,             // Container-Width
+                height: 460,            // Container-Height
+                carousel: true,         // Optional: if true, slider will restart when reached last element
+                goLeft: $('#go_left'),  // Button-Element to go left
+                goRight: $('#go_right') // ... to go right
+            });          
+        });         
+        </script>    
+    
+        <style>
+            #go_left, #go_right {
+                margin-top: 160px; float: left; cursor: pointer;
+                font-size: 30px}
+            #simple_slider {
+                float: left}
+        </style>
+    </head>
+    <body>
+        <p>Just another jQuery slider to improve, modify and have fun with</p>
+            
+        <div id="go_left">&lAarr;</div>
+        <div id="simple_slider">
+        <ul>            
+            <li>
+                <h3>Germany</h3>
+                <image src="sample_imagess/germany_s.gif" title="Germany" />
+            </li>
+            
+            <li>
+                <h3>Italy</h3>
+                <image src="sample_imagess/italy_s.gif" title="Italy" />
+            </li>
+            
+            <li>
+                <h3>Spain</h3>
+                <image src="sample_imagess/spain_s.gif" title="Spain" />
+            </li>
+        </ul>
+        </div>
+        <div id="go_right">&rAarr;</div>
+        <br clear="all" />
+    </body>
+</html>
